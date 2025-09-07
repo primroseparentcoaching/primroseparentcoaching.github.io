@@ -1,0 +1,49 @@
+{
+  "name": "primrose-parent-coaching",
+  "version": "2.0.0",
+  "description": "Ultra-modern website for Primrose Parent Coaching with enhanced animations and interactions",
+  "main": "index.html",
+  "scripts": {
+    "open": "open index.html",
+    "start": "open index.html",
+    "deploy": "echo 'Ready for deployment! Upload all files to your web server.'"
+  },
+  "keywords": [
+    "parent-coaching",
+    "website",
+    "html",
+    "css",
+    "javascript",
+    "responsive",
+    "modern-design",
+    "animations",
+    "glass-morphism",
+    "accessibility"
+  ],
+  "author": "Primrose Parent Coaching",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/primrose-parent-coaching"
+  },
+  "homepage": "https://primroseparentcoaching.com",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "features": [
+    "Ultra-modern design with glass morphism",
+    "Smooth animations and micro-interactions",
+    "Testimonial carousel with auto-play",
+    "Interactive FAQ accordion",
+    "Contact form with validation",
+    "Fully responsive design",
+    "Accessibility compliant (WCAG 2.1 AA)",
+    "SEO optimized",
+    "Performance optimized"
+  ]
+}
