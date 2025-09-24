@@ -7,14 +7,20 @@
 
 :root {
     /* Fresh & Vibrant Color Palette */
-    --primary-color: #65a30d;
-    --primary-light: #84cc16;
+    /* --primary-color: #65a30d; */
+    --primary-color: #BBC536;
+    /* --primary-light: #84cc16; */
+    --primary-light: #dde56e;
     --primary-dark: #4d7c0f;
     --primary-ultra-light: #ecfccb;
-    --secondary-color: #0ea5e9;
-    --secondary-light: #38bdf8;
-    --secondary-dark: #0284c7;
-    --accent-color: #eab308;
+    /* --secondary-color: #0ea5e9; */
+    --secondary-color: #43B2C6;
+    /* --secondary-light: #38bdf8; */
+    --secondary-light: #65bccb;
+    /* --secondary-dark: #0284c7; */
+    --secondary-dark: #43B2C6;
+    /* --accent-color: #eab308; */
+    --accent-color: #FFDE59;
     --accent-light: #facc15;
     --accent-pink: #ec4899;
     --accent-emerald: #10b981;
@@ -35,6 +41,7 @@
     
     /* Clean & Elegant Gradients */
     --gradient-primary: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-light) 100%);
+    --gradient-secondary: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
     --gradient-hero: linear-gradient(135deg, #f0f9ff 0%, #dbeafe 100%);
     --gradient-card: linear-gradient(145deg, var(--white) 0%, #f0f9ff 100%);
     --gradient-glass: linear-gradient(145deg, rgba(255, 255, 255, 0.9) 0%, rgba(240, 249, 255, 0.6) 100%);
@@ -44,6 +51,8 @@
     
     /* Typography */
     --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    /* --font-primary: "Gill Sans", "Gill Sans MT",
+                Calibri, "Trebuchet MS", sans-serif; */
     --font-display: 'Playfair Display', Georgia, serif;
     
     /* Spacing */
@@ -100,6 +109,8 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 10%;
+    padding: 10px;
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(20px) saturate(180%);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -139,6 +150,17 @@ body {
     transform: scale(1.05);
 }
 
+.nav-logo-img {
+    width: 300px;
+    object-fit: contain;
+    transition: all var(--transition-base);
+    cursor: pointer;
+}
+
+.nav-logo-img:hover {
+    transform: scale(1.05);
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -148,9 +170,9 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: var(--gray-700);
+    color: var(--primary-color);
     font-weight: 600;
-    font-size: 0.95rem;
+    font-size: 1.55rem;
     transition: all var(--transition-base);
     position: relative;
     padding: 0.5rem 1rem;
@@ -286,7 +308,7 @@ body {
 }
 
 .hero-title-large {
-    font-family: var(--font-display);
+    font-family: var(--font-primary);
     font-size: 5rem;
     line-height: 1.1;
     color: var(--gray-900);
@@ -1137,7 +1159,7 @@ section {
 }
 
 .about-details p {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     color: var(--gray-600);
     line-height: 1.7;
     margin-bottom: 1.5rem;

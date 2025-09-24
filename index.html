@@ -16,7 +16,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>Primrose Parent Coaching</h2>
+                <img src="images/primrose_title_no_bg.png" alt="Primrose Parent Coaching Logo" class="nav-logo-img">
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
@@ -33,9 +33,6 @@
                 </li>
                 <li class="nav-item">
                     <a href="#testimonials" class="nav-link">Testimonials</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#quiz" class="nav-link">Discover</a>
                 </li>
                 <li class="nav-item">
                     <a href="#contact" class="nav-link">Contact</a>
@@ -107,7 +104,7 @@
                             </svg>
                         </div>
                         <h3>Reduce Stress</h3>
-                        <p>Our personalized guidance helps reduce parenting stress and foster stronger family bonds through proven techniques.</p>
+                        <p>Personalized guidance helps reduce parenting stress and foster stronger family bonds through proven techniques.</p>
                     </div>
                     <div class="service-card reveal reveal-delay-2 hover-lift">
                         <div class="service-icon">
@@ -292,7 +289,7 @@
                                 <li>Parental guilt</li>
                                 <li>Building confidence</li>
                                 <li>Managing routines</li>
-                                <li>Self-care</li>
+                                <li>Parent self-care</li>
                                 <li>Bedtime battles</li>
                             </ul>
                             <ul class="topics-list">
@@ -560,179 +557,6 @@
         </div>
     </section>
 
-    <!-- Interactive Quiz Section -->
-    <section id="quiz" class="quiz-section">
-        <div class="container">
-            <div class="quiz-header">
-                <h2 class="section-title">Discover Your Parenting Style</h2>
-                <p class="quiz-subtitle">Take this 2-minute quiz to understand your approach and get personalized insights</p>
-            </div>
-            
-            <div class="quiz-container">
-                <div class="quiz-progress">
-                    <div class="progress-bar">
-                        <div class="progress-fill" id="progressFill"></div>
-                    </div>
-                    <span class="progress-text">Question <span id="currentQuestion">1</span> of <span id="totalQuestions">6</span></span>
-                </div>
-
-                <div class="quiz-content" id="quizContent">
-                    <!-- Question 1 -->
-                    <div class="quiz-question active" data-question="1">
-                        <h3>When your child has a meltdown in public, your first instinct is to:</h3>
-                        <div class="quiz-options">
-                            <button class="quiz-option" data-style="authoritative" data-value="A">
-                                <span class="option-letter">A</span>
-                                <span class="option-text">Stay calm, acknowledge their feelings, and set clear boundaries</span>
-                            </button>
-                            <button class="quiz-option" data-style="permissive" data-value="B">
-                                <span class="option-letter">B</span>
-                                <span class="option-text">Give them what they want to avoid the scene</span>
-                            </button>
-                            <button class="quiz-option" data-style="authoritarian" data-value="C">
-                                <span class="option-letter">C</span>
-                                <span class="option-text">Firmly tell them to stop and threaten consequences</span>
-                            </button>
-                            <button class="quiz-option" data-style="uninvolved" data-value="D">
-                                <span class="option-letter">D</span>
-                                <span class="option-text">Feel overwhelmed and wish you could disappear</span>
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Question 2 -->
-                    <div class="quiz-question" data-question="2">
-                        <h3>When setting rules for your children, you:</h3>
-                        <div class="quiz-options">
-                            <button class="quiz-option" data-style="authoritative" data-value="A">
-                                <span class="option-letter">A</span>
-                                <span class="option-text">Involve them in creating family rules and explain the reasoning</span>
-                            </button>
-                            <button class="quiz-option" data-style="permissive" data-value="B">
-                                <span class="option-letter">B</span>
-                                <span class="option-text">Prefer to keep things flexible and avoid too many restrictions</span>
-                            </button>
-                            <button class="quiz-option" data-style="authoritarian" data-value="C">
-                                <span class="option-letter">C</span>
-                                <span class="option-text">Set clear rules and expect them to be followed without question</span>
-                            </button>
-                            <button class="quiz-option" data-style="uninvolved" data-value="D">
-                                <span class="option-letter">D</span>
-                                <span class="option-text">Struggle to be consistent with rules and enforcement</span>
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Question 3 -->
-                    <div class="quiz-question" data-question="3">
-                        <h3>Your approach to your child's emotions is:</h3>
-                        <div class="quiz-options">
-                            <button class="quiz-option" data-style="authoritative" data-value="A">
-                                <span class="option-letter">A</span>
-                                <span class="option-text">Listen, validate, and help them work through feelings</span>
-                            </button>
-                            <button class="quiz-option" data-style="permissive" data-value="B">
-                                <span class="option-letter">B</span>
-                                <span class="option-text">Let them express freely without much guidance</span>
-                            </button>
-                            <button class="quiz-option" data-style="authoritarian" data-value="C">
-                                <span class="option-letter">C</span>
-                                <span class="option-text">Expect them to control their emotions and "toughen up"</span>
-                            </button>
-                            <button class="quiz-option" data-style="uninvolved" data-value="D">
-                                <span class="option-letter">D</span>
-                                <span class="option-text">Feel unsure how to handle big emotions</span>
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Question 4 -->
-                    <div class="quiz-question" data-question="4">
-                        <h3>When your child makes a mistake, you typically:</h3>
-                        <div class="quiz-options">
-                            <button class="quiz-option" data-style="authoritative" data-value="A">
-                                <span class="option-letter">A</span>
-                                <span class="option-text">Use it as a learning opportunity and discuss what happened</span>
-                            </button>
-                            <button class="quiz-option" data-style="permissive" data-value="B">
-                                <span class="option-letter">B</span>
-                                <span class="option-text">Minimize it and move on quickly</span>
-                            </button>
-                            <button class="quiz-option" data-style="authoritarian" data-value="C">
-                                <span class="option-letter">C</span>
-                                <span class="option-text">Focus on the consequence and punishment</span>
-                            </button>
-                            <button class="quiz-option" data-style="uninvolved" data-value="D">
-                                <span class="option-letter">D</span>
-                                <span class="option-text">Hope they learn on their own without much intervention</span>
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Question 5 -->
-                    <div class="quiz-question" data-question="5">
-                        <h3>Your biggest parenting challenge right now is:</h3>
-                        <div class="quiz-options">
-                            <button class="quiz-option" data-style="authoritative" data-value="A">
-                                <span class="option-letter">A</span>
-                                <span class="option-text">Finding the right balance between support and independence</span>
-                            </button>
-                            <button class="quiz-option" data-style="permissive" data-value="B">
-                                <span class="option-letter">B</span>
-                                <span class="option-text">Setting and maintaining boundaries</span>
-                            </button>
-                            <button class="quiz-option" data-style="authoritarian" data-value="C">
-                                <span class="option-letter">C</span>
-                                <span class="option-text">Connecting emotionally with your child</span>
-                            </button>
-                            <button class="quiz-option" data-style="uninvolved" data-value="D">
-                                <span class="option-letter">D</span>
-                                <span class="option-text">Feeling confident in your parenting decisions</span>
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Question 6 -->
-                    <div class="quiz-question" data-question="6">
-                        <h3>What would make the biggest difference in your family life?</h3>
-                        <div class="quiz-options">
-                            <button class="quiz-option" data-style="authoritative" data-value="A">
-                                <span class="option-letter">A</span>
-                                <span class="option-text">Fine-tuning your already solid parenting foundation</span>
-                            </button>
-                            <button class="quiz-option" data-style="permissive" data-value="B">
-                                <span class="option-letter">B</span>
-                                <span class="option-text">Learning to be more consistent and assertive</span>
-                            </button>
-                            <button class="quiz-option" data-style="authoritarian" data-value="C">
-                                <span class="option-letter">C</span>
-                                <span class="option-text">Building warmer, more connected relationships</span>
-                            </button>
-                            <button class="quiz-option" data-style="uninvolved" data-value="D">
-                                <span class="option-letter">D</span>
-                                <span class="option-text">Gaining confidence and clarity in your parenting approach</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Quiz Results -->
-                <div class="quiz-results" id="quizResults" style="display: none;">
-                    <div class="result-content">
-                        <div class="result-icon">🌟</div>
-                        <h3 id="resultTitle">Your Parenting Style</h3>
-                        <div id="resultDescription" class="result-description"></div>
-                        <div class="result-cta">
-                            <p><strong>Ready to enhance your parenting approach?</strong></p>
-                            <p>Let's discuss how coaching can support your unique family needs.</p>
-                            <a href="#contact" class="btn btn-primary">Schedule Your Free Consultation</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
@@ -761,23 +585,19 @@
                 <div class="contact-form-container">
                     <form class="contact-form" id="contactForm" action="https://formspree.io/f/xwpnaroq" method="POST">
                         <div class="form-group">
-                            <label for="name">Full Name *</label>
+                            <label for="name">First Name *</label>
                             <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name *</label>
+                            <input type="text" id="last-name" name="last-name" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email Address *</label>
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone">
-                        </div>
-                        <div class="form-group">
-                            <label for="children">Tell me about your children (ages, any specific challenges)</label>
-                            <textarea id="children" name="children" rows="3"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">What brings you to parent coaching? *</label>
+                            <label for="message">Message *</label>
                             <textarea id="message" name="message" rows="4" required></textarea>
                         </div>
                         <!-- Hidden field to specify recipient -->
@@ -806,7 +626,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Primrose Parent Coaching. All rights reserved.</p>
+                <p>&copy; 2025 Primrose Parent Coaching. All rights reserved.</p>
             </div>
         </div>
     </footer>

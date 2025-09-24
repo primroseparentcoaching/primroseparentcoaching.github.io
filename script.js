@@ -718,7 +718,6 @@ class ParentingQuiz {
 document.addEventListener('DOMContentLoaded', () => {
     new TestimonialCarousel();
     new FAQAccordion();
-    new ParentingQuiz();
     
     // Initialize reveal animations
     const revealElements = document.querySelectorAll('.reveal');
